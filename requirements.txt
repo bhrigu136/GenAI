@@ -1,0 +1,13 @@
+tiktoken
+langchain
+dotenv
+langchain-openai
+langchain-anthropic
+langchain-huggingface
+streamlit
+langchain-google-genai
+# langchain-google-generativeai
+langchain-ollama
+langchain-groq
+langchain-community
+langgraph

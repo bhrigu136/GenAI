@@ -1,0 +1,85 @@
+# Lecture: 01
+What is GenAI?
+-> It is a technology which can Generate anything based on the user Query.
+    Type of AI that create new content Each time.
+    It can Generate anything like Text, Images, Video, programming code.
+
+What is difference b/w ML, DL & GenAI?
+Ml:
+Based on our previous Actions or behaviour and selection of the content Netflix predicts or recomend us to watch this movies as well, you would like this.
+The predection is possible just because of Machine Learnings
+Usecase of Deep learning: 
+Face unlock system in phone- Shape of eye , structure of nose, face geometry and other details  
+The process where phone or your machine is learning the complex pattern is called Deep learning, 
+Where machine is learning some Deep Pattern or Deep Architecture of the Images 
+
+Generative Ai :
+Type of AI that create new content- like 
+
+## Which concept is used behind the working of ChatGPT, Google Gemini and Claude ?
+**LLM** (Large Language Model) 
+
+**LIM** (Large Image Model) > Model which can generate images ex: Google Nano Banana
+
+**LVM** (Large Vision Model) > Model which can generate images as well as videos Ex: Google Veo Model
+
+**LAM** (Large Audio Model)
+
+What is LLM?
+**Large** - Huge Amount of Data
+**Language** - Text Content
+**Model** - Artificial Machine
+
+LLM is the machine which are trained on huge amount of text data and can only Generate Text content 
+
+How LLM work ? 
+ChatGPT > it means Chatting with *GPT*
+
+**GPT** (Generative Pre-trained Transformer)
+Generative mean generative kerne ki capabilities hone. Ya kuch new content generate kar pana
+So, our LLMs are able to generate some new content based on the user input.
+But the point is, On what basis are they able to generate it?
+So, basically jitne bhi LLM's hamare pass hai wo sabhi huge amount of text data per trained kiye gaye hai 
+like Books, Articles, websites, Programming Language. Jitna bhi data Internet per available hai Us sabhi data se LLM ko train kiya jata hai.
+And jab bhi koi User, koi Question Karta hai LLM se tho LLM hme based on the Pre-Trained Data hame kuch new Content Generate  Karke dete hai.
+
+
+What is **Transformer**?
+Transformer is basically transformer architecture or special type neural network architecture hi jo user ke text input ko next level tak samajh sakta hai.
+and based on the understanding and pre trained data kuch naya contains or kuch naya text generate karke de sakta hai and that is my transformer.
+Transformer architecture is basically introduced in 2017 by Google in one research paper "Attention is all you need" by Google researchers.
+this architecture uses a mechanism called sel-attention mechanism
+The attention mechanism allows LLMs to establish relationships between multiple words in an input,
+
+I/p: The Bank Was Too Steep to Climb
+'Bank' word have two meaning River Bank And Financial Bank
+and at that time attention mechanism check another word 'climb' at the same time and on that basis LLM understand it is talking about River Bank
+This is all about Transformer 
+
+Transformer based on the user input hme next word predict karke deta hai
+ex: We finally sat Down on the ---->Transformer -------> Beach(0.5), Bench(0.80), Chair(0.10), Floor(0.5) it predict best possible words
+Final Result is: We Finally sat Down on The Bench.
+And this is the entire working of our LLM.
+
+ChatGPT, CLaude, Google Gemini is Also Generative Pre-Trained Transofrmer (GPT)
+
+
+# **Tokens & Tokenization**
+LLMs ya computers kabhi bhi text ko nahi smajh sakte hai becuse Our computers works on the binary Systems
+
+Who is PM of India? --->breaks into multiple chunks-->["Who", "is", "PM", "of", "India"] ---this list of strings called 
+as Tokens --- and each tokens are assign some number called as token ids-- and LLMs have dictionaries which have some 
+values of token ids are already pre-assign ----and LLMs understand it and again it assign some set of numbers and 
+again these set of numbers are are mapped in dictionaries and by combining this words it give output to the users > 
+this process is called as Tokenization and the process of convertion tokens into strings is called as Tokeniser.
+
+
+# **Context Window**
+How much Data we can send to any LLM model and how much data we can get from any LLM Model That's Called Context Window
+How many tokens can be Entered and how many tokens can be out from LLM 
+
+
+Token Limitations or Max Tokens:
+We pay amount to openAi models(LLM) based on Token 
+
+
