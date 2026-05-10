@@ -13,7 +13,7 @@ memory = MemorySaver()
 agent = create_agent(
     model = model,
     tools=[search.run],
-    checkpointer=memory,
+    checkpointer=MemorySaver(),
     system_prompt="You are a agent and can search for any question on google."
 )
 
